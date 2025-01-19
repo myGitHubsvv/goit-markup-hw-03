@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: #2e2f42;
 
     border-bottom: 2px solid black;
+    margin-bottom: 72px;
 }
 
 img {
@@ -235,8 +236,18 @@ img {
     background-color: #F4F4FD;
 }
 
+.main__photo-section .container {
+    /* ...existing code... */
+}
+
 .main__item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.main__item-content {
+    padding: 32px 0;
 }
 
 .main__item-title {
@@ -245,6 +256,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .main__item-text {
@@ -252,6 +265,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .main__projects {
