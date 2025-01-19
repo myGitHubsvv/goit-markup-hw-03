@@ -298,6 +298,11 @@ img {
     margin-bottom: 8px;
 }
 
+section:nth-child(2) {
+    visibility: hidden;
+    
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
