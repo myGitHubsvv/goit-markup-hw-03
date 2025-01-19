@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header__wrapper {
+    display: flex;
+}
+
 .header-nav {
     border: 1px solid #4d5ae5;
 }
