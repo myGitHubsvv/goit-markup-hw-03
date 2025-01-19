@@ -5,6 +5,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+
+    box-sizing: border-box;
 }
 
 ul, ol {
@@ -13,6 +15,19 @@ ul, ol {
 
 a {
     text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1158px;
+}
+
+.header-nav {
+    border: 1px solid #4d5ae5;
 }
 
 .logo {
@@ -63,6 +78,8 @@ a {
 
 .section {
     background-color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-title {
@@ -72,6 +89,8 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+
+    border-bottom: 2px solid black;
 }
 
 .main_title {
@@ -80,6 +99,10 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+
+.main__item {
+    border-bottom: 1px solid #4d5ae5;
 }
 
 .btn {
