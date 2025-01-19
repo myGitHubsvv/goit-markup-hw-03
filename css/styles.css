@@ -258,6 +258,34 @@ img {
     background-color: #F4F4FD;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.main__content .container {
+    /* ...existing code... */
+}
+
+.main__list {
+    display: flex;
+    gap: 24px;
+}
+
+.main__item {
+    width: calc((100% - 72px) / 4);
+}
+
+.main__item-title {
+    margin-bottom: 8px;
+}
+
 
 
 
