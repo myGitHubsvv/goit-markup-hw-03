@@ -192,6 +192,21 @@ img {
     letter-spacing: 0.02em;
 }
 
+.main__item-title:nth-child {
+    display: flex;
+    gap: 24px;
+
+}
+
+.main__item-title:nth-child li.main__item {
+    width: calc((100% - 72px) / 4);
+
+}
+
+.main__item-title li.main__item .main__item-title {
+    margin-bottom: 8px;
+}
+
 .page-footer {
     background-color: #2e2f42;
 }
