@@ -272,6 +272,31 @@ img {
     background-color: #F4F4FD;
 }
 
+.main__projects .container {
+    /* ...existing code... */
+}
+
+.main__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.main__item {
+    width: calc((100% - 48px) / 3);
+}
+
+.main__item-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.main__item-title {
+    margin-bottom: 8px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
