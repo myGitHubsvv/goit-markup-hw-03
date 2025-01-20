@@ -129,9 +129,14 @@ main .section:nth-child(2) .visually-hidden {
     gap: 24px;
   }
 
-  main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first_li {
+  main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first {
     width: calc((100% - 72px) / 4);
   }
+
+  main .section:nth-child(2) .visually-hidden .main__list_first #first_li {
+    width: calc((100% - 72px) / 4);
+  }
+
 
 main .section:nth-child(3) .container{
     padding: 32px 0;
