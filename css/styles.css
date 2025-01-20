@@ -126,6 +126,7 @@ main .section:nth-child(2) .visually-hidden {
 
   main .section:nth-child(2) .visually-hidden .main__list_first {
     display: flex;
+    gap: 24px;
   }
 
   main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first {
