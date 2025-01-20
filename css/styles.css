@@ -129,7 +129,7 @@ main .section:nth-child(2) .visually-hidden {
     gap: 24px;
   }
 
-  main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first {
+  main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first:first-child {
     width: calc((100% - 72px) / 4);
   }
 
