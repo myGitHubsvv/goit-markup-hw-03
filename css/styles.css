@@ -356,7 +356,7 @@ section:nth-child(2) ul.main__list {
     margin-bottom: 8px;
 }
 
-main .section:nth-child(4) .container {
+main .main__projects .container {
     padding: 32px 16px;
 }
 
@@ -364,8 +364,7 @@ main .section:nth-child(4) .main__list {
     row-gap: 48px;
 }
 
-
-main .section:nth-child(4) .main__list .main__item:first-child {
+main .main__projects .main__list .main__item:first-child {
     width: calc((100% - 48px) / 3);
 }
 
