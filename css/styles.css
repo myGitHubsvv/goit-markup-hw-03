@@ -345,11 +345,6 @@ img {
     margin-bottom: 8px;
 }
 
-/* section:nth-child(2) {
-    visibility: hidden;
-
-} */
-
 section:nth-child(2) ul.main__list {
     margin-left: 0;
 }
@@ -374,9 +369,9 @@ section:nth-child(2) ul.main__list {
     gap: 24px;
 }
 
-.main__item {
+/* .main__item {
     width: calc((100% - 72px) / 4);
-}
+} */
 
 .main__item-title {
     margin-bottom: 8px;
