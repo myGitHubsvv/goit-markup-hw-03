@@ -390,7 +390,7 @@ main .main__projects .main__list {
     row-gap: 48px;
 }
 
-main .main__projects .main__list .main__item_1 {
+main .main__projects .main__list .main__item {
     width: calc((100% - 48px) / 3);
 }
 
