@@ -345,10 +345,10 @@ img {
     margin-bottom: 8px;
 }
 
-section:nth-child(2) {
+/* section:nth-child(2) {
     visibility: hidden;
 
-}
+} */
 
 section:nth-child(2) ul.main__list {
     margin-left: 0;
