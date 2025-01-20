@@ -390,11 +390,11 @@ main .main__projects .main__list {
     row-gap: 48px;
 }
 
-main .main__projects .main__list .main__item:first-child {
+main .main__projects .main__list .main__item_1 {
     width: calc((100% - 48px) / 3);
 }
 
-main .section:last-child .main__list li:nth-last-child(1n+4) {
+main .main__projects .main__list li:nth-last-child(1n+4) {
     margin-bottom: 48px;
 }
 
