@@ -369,10 +369,6 @@ section:nth-child(2) ul.main__list {
     gap: 24px;
 }
 
-/* .main__item {
-    width: calc((100% - 72px) / 4);
-} */
-
 .main__item-title {
     margin-bottom: 8px;
 }
@@ -385,7 +381,7 @@ main .main__projects .main__list {
     row-gap: 48px;
 }
 
-main .main__projects .main__list .main__item {
+main .main__projects .main__item:first-child {
     width: calc((100% - 48px) / 3);
 }
 
