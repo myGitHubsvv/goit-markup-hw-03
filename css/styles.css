@@ -292,10 +292,36 @@ img {
 
 .main__projects {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .main__projects .container {
     /* ...existing code... */
+}
+
+.main__projects .section-title {
+    margin-bottom: 72px;
+}
+
+.main__projects .main__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.main__projects .main__item {
+    width: calc((100% - 48px) / 3);
+}
+
+.main__projects .main__item-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.main__projects .main__item-title {
+    margin-bottom: 8px;
 }
 
 .main__list {
