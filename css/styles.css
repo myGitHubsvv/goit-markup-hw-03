@@ -310,7 +310,7 @@ img {
 }
 
 .main__item-content {
-    padding: 32px 16px;
+    padding: 32px 0;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
