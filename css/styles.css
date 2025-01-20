@@ -154,6 +154,15 @@ main .section:nth-child(3) .container{
     margin-bottom: 72px;
 }
 
+.main__photo-section ul.main__list_two {
+    display: flex;
+    gap: 24px;
+}
+
+.main__photo-section ul.main__list_two li.main__item_two:first-child {
+    
+}
+
 img {
     display: block;
 }
@@ -230,10 +239,6 @@ img {
     gap: 24px;
 
 }
-
-/* .main__content .main__list_1 .main__item_1:first-child{
-    width: calc((100% - 72px) / 4);
-} */
 
 .main__item-title li.main__item .main__item-title {
     margin-bottom: 8px;
