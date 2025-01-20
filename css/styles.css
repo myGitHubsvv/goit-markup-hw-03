@@ -356,9 +356,14 @@ section:nth-child(2) ul.main__list {
     margin-bottom: 8px;
 }
 
+main .section:last-child .container {
+    padding: 32px 16px;
+}
+
 main .section:last-child .main__list {
     row-gap: 48px;
 }
+
 
 main .section:last-child .main__list .main__item:first-child {
     width: calc((100% - 48px) / 3);
