@@ -124,6 +124,10 @@ main .section:nth-child(2) .visually-hidden {
     overflow: hidden;
   }
 
+  main .section:nth-child(2) .visually-hidden .main__list_first {
+    display: flex;
+  }
+
   main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first {
     width: calc((100% - 72px) / 4);
   }
