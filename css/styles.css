@@ -135,9 +135,9 @@ main .section:nth-child(2) .visually-hidden {
     gap: 24px;
   }
 
-  section.section:nth-child(2) .main__list_first .main__item_first {
+  /* section.section:nth-child(2) .main__list_first .main__item_first {
     width: calc((100% - 72px) / 4);
-  }
+  } */
 
   section.main__content .main__list_first .main__item_first:first-child {
     width: calc((100% - 72px) / 4);
