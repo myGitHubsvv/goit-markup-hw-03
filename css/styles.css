@@ -133,7 +133,7 @@ main .section:nth-child(2) .visually-hidden {
     width: calc((100% - 72px) / 4);
   }
 
-  main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first:nth-child(1) {
+  main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first:first-child {
     width: calc((100% - 72px) / 4);
   }
 
@@ -231,9 +231,9 @@ img {
 
 }
 
-.main__content .main__list_1 .main__item_1:first-child{
+/* .main__content .main__list_1 .main__item_1:first-child{
     width: calc((100% - 72px) / 4);
-}
+} */
 
 .main__item-title li.main__item .main__item-title {
     margin-bottom: 8px;
