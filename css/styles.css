@@ -128,10 +128,6 @@ main .section:nth-child(2) .visually-hidden {
     width: calc((100% - 72px) / 4);
   }
 
-  main .section:nth-child(2) .visually-hidden .main__list .main__item_1 {
-    width: calc((100% - 72px) / 4);
-  }
-
 main .section:nth-child(3) .container{
     padding: 32px 0;
 
