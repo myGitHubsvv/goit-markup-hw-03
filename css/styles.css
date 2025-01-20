@@ -224,7 +224,6 @@ img {
 
 .main__item-title:nth-child li.main__item {
     width: calc((100% - 72px) / 4);
-
 }
 
 .main__item-title li.main__item .main__item-title {
@@ -323,6 +322,10 @@ img {
 section:nth-child(2) {
     visibility: hidden;
 
+}
+
+section:nth-child(2) ul.main__list {
+    margin-left: 0;
 }
 
 .visually-hidden {
