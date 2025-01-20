@@ -160,7 +160,7 @@ main .section:nth-child(3) .container{
 }
 
 .main__photo-section ul.main__list_two li.main__item_two:first-child {
-    
+
 }
 
 img {
@@ -242,6 +242,15 @@ img {
 
 .main__item-title li.main__item .main__item-title {
     margin-bottom: 8px;
+}
+
+section.main__projects ul.main__list_three {
+    
+}
+
+
+section.main__projects ul.main__list_three li.main__item_three {
+
 }
 
 .page-footer {
