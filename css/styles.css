@@ -133,7 +133,7 @@ main .section:nth-child(2) .visually-hidden {
     width: calc((100% - 72px) / 4);
   }
 
-  main .section:nth-child(2) .visually-hidden .main__list_first .first_li {
+  main .section:nth-child(2) .visually-hidden .main__list_first .main__item_first:nth-child(1) {
     width: calc((100% - 72px) / 4);
   }
 
