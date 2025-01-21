@@ -139,9 +139,13 @@ main .section:nth-child(2) .visually-hidden {
     width: calc((100% - 72px) / 4);
   } */
 
-  section.main__content .main__list_first .main__item_first:first-child {
+  section.main__content .main__list_first .main__item_first {
     width: calc((100% - 72px) / 4);
   }
+
+  /* section.main__content .main__list_first .main__item_first:first-child {
+    width: calc((100% - 72px) / 4);
+  } */
 
 main .section:nth-child(3) .container{
     padding: 32px 0;
