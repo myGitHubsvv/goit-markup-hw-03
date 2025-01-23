@@ -144,12 +144,8 @@ main .section:nth-child(2) .visually-hidden {
   } */
 
   section.main__content .visually-hidden .main__list_first .main__item_first {
-    flex-basis: calc((100% - 3 * 24px)/4);
+    width: calc((100% - 3 * 24px) / 4);
   }
-
-  /* section.main__content .main__list_first .main__item_first:first-child {
-    width: calc((100% - 72px) / 4);
-  } */
 
 main .section:nth-child(3) .container{
     padding: 32px 0;
@@ -296,9 +292,9 @@ section.main__projects ul.main__list_three li.main__item_three:first-child {
     background-color: #F4F4FD;
 }
 
-.main__photo-section .container {
-    /* ...existing code... */
-}
+/* .main__photo-section .container {
+     existing code 
+} */
 
 .main__item-content {
     padding: 32px 0;
