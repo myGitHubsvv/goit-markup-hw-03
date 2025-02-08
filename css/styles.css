@@ -191,7 +191,7 @@ section.main__content {
     clip-path: inset(100%);
     white-space: nowrap;
 
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
   .main__list_first {
