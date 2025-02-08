@@ -46,17 +46,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     align-items: center;
 }
 
-/* .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
-} */
-
 .header-logo {
     margin-right: 76px;
 }
@@ -139,7 +128,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* ................................. MAIN FIRST SECTION ............................. */
 
-.main__header {
+section.main__header {
     background-color: #2e2f42;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
@@ -364,7 +353,7 @@ main section .main__projects .container {
 .section {
     background-color: #2e2f42;
     padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 section ul li{
