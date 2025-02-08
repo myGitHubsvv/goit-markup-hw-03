@@ -350,10 +350,10 @@ main section .main__projects .container {
 
 /* ................................. / MAIN FOURTH SECTION ........................... */
 
-.section {
+.section:not(:first-child) {
     background-color: #2e2f42;
     padding-top: 120px;
-    /* padding-bottom: 120px; */
+    padding-bottom: 120px;
 }
 
 section ul li{
