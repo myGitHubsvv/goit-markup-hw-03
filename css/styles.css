@@ -179,7 +179,11 @@ section.main__content {
     background-color: transparent;
 }
 
-.visually-hidden {
+section.main__content .container:first-child {
+    
+}
+
+ .main__content h2 {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -190,9 +194,20 @@ section.main__content {
     clip: rect(0, 0, 0, 0);
     clip-path: inset(100%);
     white-space: nowrap;
-
-    visibility: hidden;
 }
+
+/* .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    white-space: nowrap;
+} */
 
   .main__list_first {
     display: flex;
